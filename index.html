@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="h-screen">
+  <body class="h-screen overflow-x-hidden">
     <header class="bg-transparent absolute inset-x-0 top-0 p-2">
       <nav>
         <ul>
@@ -27,7 +27,7 @@
       </nav>
     </header>
 
-    <article id="home" class="w-full h-3/4">
+    <section id="home" class="w-full h-3/4">
       <section
         class="bg-sanFrancisco bg-top h-full bg-cover grid justify-center p-6"
       >
@@ -41,8 +41,74 @@
           Explore More
         </button>
       </section>
-    </article>
-    <article id="recommended">Recommendations</article>
+    </section>
+    <section id="recommended">
+      <header class="my-4">
+        <h2 class="p-2 bg-white text-primary text-2xl">Our Recommendations</h2>
+      </header>
+      <section class="flex gap-4 w-screen overflow-y-hidden overflow-x-scroll">
+        <article
+          class="w-48 h-64 shrink-0 shadow-md rounded-xl bg-secondary overflow-hidden"
+        >
+          <picture class="block h-40 rounded-xl">
+            <img
+              src="./public/img/norway.jpg"
+              alt="norway"
+              class="rounded-t-xl h-full"
+            />
+          </picture>
+          <section class="p-2 py-5 text-white">
+            <h3 class="font-semibold text-xl">Norway</h3>
+            <p>Beatiful Landscapes</p>
+          </section>
+        </article>
+        <article
+          class="w-48 h-64 shrink-0 shadow-md rounded-xl overflow-hidden"
+        >
+          <picture class="block h-40 rounded-xl">
+            <img
+              src="./public/img/new_york.jpg"
+              alt="new_york"
+              class="rounded-t-xl h-full"
+            />
+          </picture>
+          <section class="p-2 py-5 text-secondary">
+            <h3 class="font-semibold text-xl">New York</h3>
+            <p>Concrete Jungle</p>
+          </section>
+        </article>
+        <article
+          class="w-48 h-64 shrink-0 shadow-md rounded-xl bg-secondary overflow-hidden"
+        >
+          <picture class="block h-40 rounded-xl">
+            <img
+              src="./public/img/norway.jpg"
+              alt="norway"
+              class="rounded-t-xl h-full"
+            />
+          </picture>
+          <section class="p-2 py-5 text-white">
+            <h3 class="font-semibold text-xl">Norway</h3>
+            <p>Beatiful Landscapes</p>
+          </section>
+        </article>
+        <article
+          class="w-48 h-64 shrink-0 shadow-md rounded-xl overflow-hidden"
+        >
+          <picture class="block h-40 rounded-xl">
+            <img
+              src="./public/img/new_york.jpg"
+              alt="new_york"
+              class="rounded-t-xl h-full"
+            />
+          </picture>
+          <section class="p-2 py-5 text-secondary">
+            <h3 class="font-semibold text-xl">New York</h3>
+            <p>Concrete Jungle</p>
+          </section>
+        </article>
+      </section>
+    </section>
     <article class="featured_income"></article>
     <footer><nav></nav></footer>
   </body>
