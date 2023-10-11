@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-screen">
+    <header class="bg-transparent absolute inset-x-0 top-0 p-2">
+      <nav>
+        <ul>
+          <li class="flex justify-center">
+            <input
+              type="search"
+              placeholder="Search"
+              class="bg-white text-primary p-4 rounded-full shadow-sm h-8"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <article id="home" class="w-full h-3/4">
+      <section
+        class="bg-sanFrancisco bg-top h-full bg-cover grid justify-center p-6"
+      >
+        <h1 class="self-center font-bold text-2xl text-center text-gray-800">
+          Find More locations <br />
+          like this
+        </h1>
+        <button
+          class="w-48 h-fit bg-white text-primary text-xl font-semibold p-2 shadow-sm rounded-full self-end justify-self-center"
+        >
+          Explore More
+        </button>
+      </section>
+    </article>
+    <article id="recommended">Recommendations</article>
+    <article class="featured_income"></article>
+    <footer><nav></nav></footer>
+  </body>
+</html>
