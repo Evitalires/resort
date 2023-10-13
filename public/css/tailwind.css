@@ -556,6 +556,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
 }
@@ -736,6 +740,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.place-self-center {
+  place-self: center;
 }
 
 .self-end {
@@ -1011,6 +1019,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:absolute {
     position: absolute;
   }
@@ -1037,6 +1049,10 @@ video {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
   }
 
   .lg\:hidden {
