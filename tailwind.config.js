@@ -39,6 +39,9 @@ module.exports = {
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
       },
+      margin: {
+        center: "0 auto",
+      },
     },
   },
   plugins: [],
