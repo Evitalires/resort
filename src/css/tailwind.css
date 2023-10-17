@@ -4,7 +4,7 @@
 
 @layer components {
   .card {
-    @apply w-48 h-64 shrink-0 shadow-md rounded-xl overflow-hidden transition-all hover:-translate-y-4 hover:shadow-xl;
+    @apply w-48 min-h-fit shrink-0 shadow-md rounded-xl overflow-hidden transition-all hover:-translate-y-4 hover:shadow-xl;
   }
   .card:nth-child(odd) {
     @apply dark:bg-gray-700;
